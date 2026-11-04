@@ -1,0 +1,21 @@
+product_id,product_name,category,price,source_updated_at,ingestion_timestamp
+P001,Samsung Galaxy M35,Electronics,18999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P002,Apple iPhone 15,Electronics,59999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P003,Boat Airdopes 141,Electronics,1299,2026-01-01 10:00:00,2026-01-04 09:00:00
+P004,HP Laptop 15s,Electronics,52999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P005,Logitech Mouse,Electronics,799,2026-01-01 10:00:00,2026-01-04 09:00:00
+P006,Nike Running Shoes,Footwear,3499,2026-01-01 10:00:00,2026-01-04 09:00:00
+P007,Adidas T Shirt,Fashion,999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P008,Levis Jeans,Fashion,2499,2026-01-01 10:00:00,2026-01-04 09:00:00
+P009,Puma Backpack,Fashion,1599,2026-01-01 10:00:00,2026-01-04 09:00:00
+P010,Prestige Cooker,Home,2299,2026-01-01 10:00:00,2026-01-04 09:00:00
+P011,Philips Mixer,Home,3499,2026-01-01 10:00:00,2026-01-04 09:00:00
+P012,Borosil Bottle,Home,599,2026-01-01 10:00:00,2026-01-04 09:00:00
+P013,Loreal Shampoo,Personal Care,399,2026-01-01 10:00:00,2026-01-04 09:00:00
+P014,Dove Soap Pack,Personal Care,249,2026-01-01 10:00:00,2026-01-04 09:00:00
+P015,Milton Water Bottle,Home,499,2026-01-01 10:00:00,2026-01-04 09:00:00
+P016,Canon Printer,Electronics,8999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P017,Sony Headphones,Electronics,4999,2026-01-01 10:00:00,2026-01-04 09:00:00
+P018,Woodland Shoes,Footwear,4299,2026-01-01 10:00:00,2026-01-04 09:00:00
+P019,Raymond Shirt,Fashion,1799,2026-01-01 10:00:00,2026-01-04 09:00:00
+P020,Crompton Fan,Home,2899,2026-01-01 10:00:00,2026-01-04 09:00:00
