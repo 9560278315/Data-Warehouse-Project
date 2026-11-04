@@ -1,4 +1,5 @@
-# Retail Data Warehouse Project
+
+🛒 Retail Data Warehouse Project
 
 
 ## Project Overview
@@ -100,10 +101,7 @@ Analytical Reporting
 6. Execute fact loading scripts.
 7. Run analytical SQL queries.
 
-## Author
-SQL Developer | Aspiring Data Engineer
 
-🛒 Retail Data Warehouse Project
 
 A Retail Data Warehouse built using PostgreSQL and Advanced SQL to centralize retail business data and support analytical reporting, sales analysis, customer behaviour analysis, and revenue insights.
 
@@ -169,6 +167,8 @@ Load dimension tables using business keys.
 Load fact tables using surrogate keys.
 Apply SCD Type 1 and Type 2 for customer data management.
 Execute analytical queries and data quality checks.
+
+
 ⭐ Database Design
 
 The warehouse follows a Star Schema architecture.
