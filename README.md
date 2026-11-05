@@ -360,23 +360,16 @@ Screenshots of the PostgreSQL implementation and query results will be included 
 
 1. Dimension Tables
 
-!Dimension Tables
-
 2. Fact Sales
-
-!Fact Sales
 
 3. Fact Payments
 
-!Fact Payments
-
 4. SCD Type 2 Implementation
-
-!SCD Type 2
 
 5. Analytical Query Results
 
-!Analytical Results
+   <img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/19ad3077-d67b-43ee-933b-45b01b9d83b1" />
+
 
 Replace these image paths with your actual screenshots before publishing.
 
