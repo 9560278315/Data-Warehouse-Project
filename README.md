@@ -49,20 +49,15 @@ Data-Warehouse-Project/
 
 ## Architecture
 Source CSV Files
-       |
-       v
+       
 Staging Tables
-       |
-       v
+       
 Data Transformation
-       |
-       v
+       
 Dimension Tables
-       |
-       v
+       
 Fact Tables
-       |
-       v
+       
 Analytical Reporting
 
 ## Database Design
@@ -75,6 +70,10 @@ Analytical Reporting
 ### Fact Tables
 - fact_sales
 - fact_payments
+
+<img width="1358" height="716" alt="image" src="https://github.com/user-attachments/assets/fb6457b1-aa3e-4630-9e3c-d05011534002" />
+
+
 
 ## Key Implementations
 - Star Schema design
@@ -216,6 +215,11 @@ C001	Pune	FALSE
 C001	Bengaluru	TRUE
 
 This allows historical customer information to be preserved.
+
+<img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/836ff3b1-e3b9-4f65-8e52-12a7d50fe95d" />
+
+
+
 
 📊 Analytical SQL Queries
 
