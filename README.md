@@ -117,6 +117,9 @@ Retail-Data-Warehouse/
 - Regional sales performance
 
 ## Database Design
+
+The warehouse follows a Star Schema architecture.
+
 ### Dimension Tables
 - dim_customer
 - dim_product
@@ -129,33 +132,6 @@ Retail-Data-Warehouse/
 
 <img width="1358" height="716" alt="image" src="https://github.com/user-attachments/assets/fb6457b1-aa3e-4630-9e3c-d05011534002" />
 
-
-
-## How to Run
-1. Create PostgreSQL database.
-2. Execute schema scripts.
-3. Create staging and warehouse tables.
-4. Import sample CSV files.
-5. Execute dimension loading scripts.
-6. Execute fact loading scripts.
-7. Run analytical SQL queries.
-
-
-🏗️ Data Warehouse Architecture
-
-ETL Workflow
-Extract retail data from CSV source files.
-Load raw data into PostgreSQL staging tables.
-Transform and validate source data.
-Load dimension tables using business keys.
-Load fact tables using surrogate keys.
-Apply SCD Type 1 and Type 2 for customer data management.
-Execute analytical queries and data quality checks.
-
-
-⭐ Database Design
-
-The warehouse follows a Star Schema architecture.
 
 Dimension Tables
 Table	Description
@@ -240,101 +216,84 @@ These checks help maintain data consistency and warehouse reliability.
 
 
 
-⚙️ How to Run the Project
+## How to Run this Project
 Prerequisites
 PostgreSQL installed.
 pgAdmin or PostgreSQL command-line tools.
 CSV source files included in the data folder.
+
 Step 1: Create Database
 sql
-
 CREATE DATABASE retail_datawarehouse;
-
 Connect to the newly created database.
 
 Step 2: Create Schemas
-
 Execute:
 sql/02_create_schema.sql
 
 Step 3: Create Dimension and Fact Tables
-
 Execute:
 sql/03_create_dimension_tables.sql
 sql/04_create_fact_tables.sql
 
 Step 4: Create Staging Tables
-
 Execute:
 sql/05_staging_tables.sql
 
 Step 5: Import CSV Files
-
 Import the following files into their respective staging tables:
-
 customers.csv
 products.csv
 orders.csv
 payments.csv
 
-Use pgAdmin's Import/Export functionality or PostgreSQL COPY.
+Use pgAdmin's Import/Export functionality.
 
 Step 6: Load Dimension Tables
-
 Execute:
 sql/06_load_dimensions.sql
 
 Step 7: Load Fact Tables
-
 Execute:
 sql/07_load_fact_tables.sql
 
 Step 8: Implement SCD
-
 Execute:
 sql/08_scd_type1.sql
 sql/09_scd_type2.sql
 
 Step 9: Execute Analytical Queries
-
 Execute:
 sql/10_analytical_queries.sql
 
 Step 10: Run Data Quality Checks
-
 Execute:
 sql/11_data_quality_checks.sql
 
 ## Project Screenshots
 
 Screenshots of the PostgreSQL implementation and query results
-
 1. Dimension Tables
-
 2. Fact Sales
 
 <img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/3d4d761b-f42c-4b55-bad9-e43398ae4aab" />
 
-
 4. Fact Payments
-
 <img width="1920" height="1025" alt="image" src="https://github.com/user-attachments/assets/10acc29f-2610-4a83-8b1f-fbee06f006cd" />
 
 
 6. SCD Type 2 Implementation
-
 <img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/836ff3b1-e3b9-4f65-8e52-12a7d50fe95d" />
 
 
 6. Analytical Query Results
-
 <img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/19ad3077-d67b-43ee-933b-45b01b9d83b1" />
 <img width="1885" height="1000" alt="image" src="https://github.com/user-attachments/assets/54cfeffe-cf31-4290-9ce6-794478f4bb74" />
 <img width="1902" height="1030" alt="image" src="https://github.com/user-attachments/assets/b4bb38f4-0302-47f9-88c7-47c9f236c701" />
 <img width="1903" height="1029" alt="image" src="https://github.com/user-attachments/assets/a96f3c12-90c9-4393-9582-f7530237db93" />
 <img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/ca327902-c747-4ee7-86fb-1181ca846953" />
 
-Replace these image paths with your actual screenshots before publishing.
+
 
 ## Key Learnings
 
