@@ -331,6 +331,7 @@ sql/06_load_dimensions.sql
 
 Step 7: Load Fact Tables
 
+
 Execute:
 sql/07_load_fact_tables.sql
 
