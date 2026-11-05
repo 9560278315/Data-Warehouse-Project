@@ -370,6 +370,7 @@ Screenshots of the PostgreSQL implementation and query results will be included 
 
    <img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/19ad3077-d67b-43ee-933b-45b01b9d83b1" />
 <img width="1885" height="1000" alt="image" src="https://github.com/user-attachments/assets/54cfeffe-cf31-4290-9ce6-794478f4bb74" />
+<img width="1902" height="1030" alt="image" src="https://github.com/user-attachments/assets/b4bb38f4-0302-47f9-88c7-47c9f236c701" />
 
 
 Replace these image paths with your actual screenshots before publishing.
