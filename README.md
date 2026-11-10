@@ -181,7 +181,7 @@ This allows historical customer information to be preserved.
 
 
 
-📊 Analytical SQL Queries
+## Analytical SQL Queries
 
 Four business analytical queries were developed.
 
@@ -254,11 +254,7 @@ Execute:
 sql/06_load_dimensions.sql
 
 Step 7: Load Fact Tables
-<<<<<<< HEAD
 
-
-=======
->>>>>>> d4e7fb017a15ffc624c5dd05e9824d88fca94e1b
 Execute:
 sql/07_load_fact_tables.sql
 
